@@ -1,12 +1,4 @@
-[build]
-builder = "nixpacks"
-buildCommand = "echo building!"
 
-[deploy]
-startCommand = "echo starting!"
-healthcheckPath = "/"
-healthcheckTimeout = 100
-restartPolicyType = "never"
 
 [mounts]
 source = "pb_data" # name of the volume
