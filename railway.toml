@@ -1,0 +1,3 @@
+[mounts]
+source = "pb_data" # name of the volume
+destination = "/pb/pb_data"
